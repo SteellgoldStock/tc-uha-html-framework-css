@@ -1,0 +1,30 @@
+img.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid white;
+}
+
+.avatar-group {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-group .avatar:not(:first-child) {
+  margin-left: -10px;
+}
+
+.avatar-group .avatar-lg:not(:first-child) {
+  margin-left: -25px;
+}
+
+img.avatar-lg {
+  width: 60px;
+  height: 60px;
+}
+
+img.avatar-sm {
+  width: 30px;
+  height: 30px;
+}
