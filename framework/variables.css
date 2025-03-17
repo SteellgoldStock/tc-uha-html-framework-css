@@ -1,0 +1,51 @@
+:root {
+  --info-color: #0c5460;
+  --info-color-bg: #d1ecf1;
+  --info-color-border: #bee5eb;
+  
+  --success-color: #155724;
+  --success-color-bg: #d4edda;
+  --success-color-border: #c3e6cb;
+  
+  --warning-color: #856404;
+  --warning-color-bg: #fff3cd;
+  --warning-color-border: #ffeeba;
+  
+  --destructive-color: #721c24;
+  --destructive-color-bg: #f8d7da;
+  --destructive-color-border: #f5c6cb;
+  
+  --primary-color: var(--info-color);
+  --secondary-color: var(--success-color);
+  
+  --alert-info-bg: var(--info-color-bg);
+  --alert-info-border: var(--info-color-border);
+  --alert-info-text: var(--info-color);
+  
+  --alert-success-bg: var(--success-color-bg);
+  --alert-success-border: var(--success-color-border);
+  --alert-success-text: var(--success-color);
+  
+  --alert-warning-bg: var(--warning-color-bg);
+  --alert-warning-border: var(--warning-color-border);
+  --alert-warning-text: var(--warning-color);
+  
+  --alert-danger-bg: var(--destructive-color-bg);
+  --alert-danger-border: var(--destructive-color-border);
+  --alert-danger-text: var(--destructive-color);
+
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --border-color: #ddd;
+
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-normal: 1rem; /* 16px */
+  --font-size-md: 1.125rem; /* 18px */
+  --font-size-lg: 1.25rem; /* 20px */
+  
+  --line-height-1: 1.2;
+  --line-height-6: 1.6;
+}

@@ -1,0 +1,23 @@
+.text-sm {
+  font-size: var(--font-size-sm);
+}
+
+.text-normal {
+  font-size: var(--font-size-normal);
+}
+
+.text-md {
+  font-size: var(--font-size-md);
+}
+
+.text-lg {
+  font-size: var(--font-size-lg);
+}
+
+.leading-1 {
+  line-height: var(--line-height-1);
+}
+
+.leading-6 {
+  line-height: var(--line-height-6);
+}
