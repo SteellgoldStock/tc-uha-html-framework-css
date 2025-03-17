@@ -1,0 +1,102 @@
+/*   --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px; */
+
+.border {
+  border: 1px solid var(--border-color);
+}
+
+.border-top {
+  border-top: 1px solid var(--border-color);
+}
+
+.border-right {
+  border-right: 1px solid var(--border-color);
+}
+
+.border-bottom {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.border-left {
+  border-left: 1px solid var(--border-color);
+}
+
+.border-0 {
+  border: 0;
+}
+
+.border-top-0 {
+  border-top: 0;
+}
+
+.border-right-0 {
+  border-right: 0;
+}
+
+.border-bottom-0 {
+  border-bottom: 0;
+}
+
+.border-left-0 {
+  border-left: 0;
+}
+
+.border-primary {
+  border-color: var(--primary-color);
+}
+
+.border-secondary {
+  border-color: var(--secondary-color);
+}
+
+.border-info {
+  border-color: var(--info-color);
+}
+
+.border-success {
+  border-color: var(--success-color);
+}
+
+.border-warning {
+  border-color: var(--warning-color);
+}
+
+.border-danger {
+  border-color: var(--destructive-color);
+}
+
+.border-radius {
+  border-radius: var(--border-radius-md);
+}
+
+.border-radius-sm {
+  border-radius: var(--border-radius-sm);
+}
+
+.border-radius-md {
+  border-radius: var(--border-radius-md);
+}
+
+.border-radius-lg {
+  border-radius: var(--border-radius-lg);
+}
+
+.border-radius-0 {
+  border-radius: 0;
+}
+
+.border-radius-top-left-sm { border-top-left-radius: var(--border-radius-sm); }
+.border-radius-top-right-sm { border-top-right-radius: var(--border-radius-sm); }
+.border-radius-bottom-left-sm { border-bottom-left-radius: var(--border-radius-sm); }
+.border-radius-bottom-right-sm { border-bottom-right-radius: var(--border-radius-sm); }
+
+.border-radius-top-left-md { border-top-left-radius: var(--border-radius-md); }
+.border-radius-top-right-md { border-top-right-radius: var(--border-radius-md); }
+.border-radius-bottom-left-md { border-bottom-left-radius: var(--border-radius-md); }
+.border-radius-bottom-right-md { border-bottom-right-radius: var(--border-radius-md); }
+
+.border-radius-top-left-lg { border-top-left-radius: var(--border-radius-lg); }
+.border-radius-top-right-lg { border-top-right-radius: var(--border-radius-lg); }
+.border-radius-bottom-left-lg { border-bottom-left-radius: var(--border-radius-lg); }
+.border-radius-bottom-right-lg { border-bottom-right-radius: var(--border-radius-lg); }
