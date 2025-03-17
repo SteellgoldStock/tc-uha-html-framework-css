@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation</title>
+  <link rel="stylesheet" href="framework/main.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="section">
+    <h2>Variables de Base</h2>
+    <h3>Couleurs</h3>
+
+    <div class="flex flex-row gap-2">
+      <div class="color-cube" style="background-color: #0c5460 ;">
+        <span>#0c5460</span>
+        <span class="title">Primary</span>
+      </div>
+
+      <div class="color-cube" style="background-color: #155724 ;">
+        <span>#155724</span>
+        <span class="title">Success</span>
+      </div>
+
+      <div class="color-cube" style="background-color: #856404 ;">
+        <span>#856404</span>
+        <span class="title">Warning</span>
+      </div>
+
+      <div class="color-cube" style="background-color: #721c24 ;">
+        <span>#721c24</span>
+        <span class="title">Danger</span>
+      </div>
+    </div>
+
+    <hr>
+
+    <h3>Tailles de Police</h3>
+
+    <div class="flex flex-row gap-2">
+      <p class="text-sm">Petit</p>
+      <p class="text-md">Normal</p>
+      <p class="text-lg">Grand</p>
+
+    </div>
+
+
+    <hr>
+
+    <h3>Border Radius</h3>
+
+    <div class="flex flex-row gap-2">
+      <div class="bg-info cube border-radius-sm"><p>4px</p></div>
+      <div class="bg-info cube border-radius-md"><p>8px</p></div>
+      <div class="bg-info cube border-radius-lg"><p>12px</p></div>
+    </div>
+
+  </div>
+
+  <div class="section">
+    <h2>Composants</h2>
+
+    <h3>Avatars</h3>
+    <p>Utilisez les classes <code>.avatar</code>, <code>.avatar-sm</code>, <code>.avatar-lg</code> et <code>.avatar-group</code>.</p>
+
+    <div class="preview">
+      <div class="avatar-group">
+        <img class="avatar avatar-lg" src="https://randomuser.me/api/portraits/men/71.jpg" alt="Avatar"></img>
+        <img class="avatar avatar-lg" src="https://randomuser.me/api/portraits/men/82.jpg" alt="Avatar"></img>
+        <img class="avatar avatar-lg" src="https://randomuser.me/api/portraits/men/43.jpg" alt="Avatar"></img>
+      </div>
+
+      <div class="avatar-group">
+        <img class="avatar avatar-sm" src="https://randomuser.me/api/portraits/men/71.jpg" alt="Avatar"></img>
+        <img class="avatar avatar-sm" src="https://randomuser.me/api/portraits/men/82.jpg" alt="Avatar"></img>
+        <img class="avatar avatar-sm" src="https://randomuser.me/api/portraits/men/43.jpg" alt="Avatar"></img>
+      </div>
+    </div>
+    
+    <h3>Badges</h3>
+    <p>Classes : <code>.badge</code>, <code>.badge-primary</code>, <code>.badge-success</code>, <code>.badge-warning</code>, <code>.badge-danger</code></p>
+
+    <div class="preview">
+      <span class="badge badge-primary">Primary</span>
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-danger">Danger</span>
+    </div>
+
+    <h3>Alertes</h3>
+    <p>Classes : <code>.alert</code>, <code>.alert-info</code>, <code>.alert-success</code>, <code>.alert-warning</code>, <code>.alert-danger</code></p>
+    <div class="preview">
+      <div class="alert alert-info">Information</div>
+      <div class="alert alert-success">Succès</div>
+      <div class="alert alert-warning">Attention</div>
+      <div class="alert alert-danger">Erreur</div>
+    </div>
+
+    <h3>Boutons</h3>
+    <p>Classes : <code>.btn</code>, <code>.btn-primary</code>, <code>.btn-success</code>, <code>.btn-warning</code>, <code>.btn-danger</code></p>
+    <div class="preview">
+      <button class="btn btn-primary">Primary</button>
+      <button class="btn btn-success">Success</button>
+      <button class="btn btn-warning">Warning</button>
+      <button class="btn btn-danger">Danger</button>
+    </div>
+    
+    <h3>Cartes</h3>
+    <p>Classes : <code>.card</code>, <code>.card-header</code>, <code>.card-content</code>, <code>.card-footer</code></p>
+    <div class="preview">
+      <div class="card" style="max-width: 300px;">
+        <div class="card-header">Titre</div>
+        <div class="card-content">Contenu de la carte avec un texte d'exemple.</div>
+        <div class="card-footer">Pied de page</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Utilitaires de Texte</h2>
+    <h3>Couleurs de Texte</h3>
+    <p>Classes : <code>.text-primary</code>, <code>.text-success</code>, <code>.text-warning</code>, <code>.text-danger</code></p>
+    
+    <h3>Tailles de Texte</h3>
+    <p>Classes : <code>.text-sm</code>, <code>.text-normal</code>, <code>.text-md</code>, <code>.text-lg</code></p>
+    
+    <h3>Arrière-plans</h3>
+    <p>Classes : <code>.bg-primary</code>, <code>.bg-success</code>, <code>.bg-warning</code>, <code>.bg-danger</code></p>
+
+    <h3>Bordures</h3>
+    <p>Classes : <code>.border-primary</code>, <code>.border-success</code>, <code>.border-warning</code>, <code>.border-danger</code></p>
+  </div>
+</body>
+</html>
