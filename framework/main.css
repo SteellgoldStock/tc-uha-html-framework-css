@@ -1,11 +1,14 @@
 @import "variables.css";
 @import "typography.css";
 @import "colors.css";
+@import "border.css";
 
 @import "alignment/grid.css";
 @import "alignment/flex.css";
+@import "alignment/spacing.css";
 
 @import "elements/card.css";
 @import "elements/button.css";
 @import "elements/avatar.css";
+@import "elements/alert.css";
 @import "elements/badge.css";
