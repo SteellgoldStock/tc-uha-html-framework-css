@@ -1,0 +1,71 @@
+.text-primary {
+  color: var(--info-color);
+}
+
+.text-secondary {
+  color: var(--success-color);
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-warning {
+  color: var(--warning-color);
+}
+
+.text-danger {
+  color: var(--destructive-color);
+}
+
+.text-info {
+  color: var(--info-color);
+}
+
+.bg-primary {
+  background-color: var(--info-color-bg);
+}
+
+.bg-secondary {
+  background-color: var(--success-color-bg);
+}
+
+.bg-success {
+  background-color: var(--success-color-bg);
+}
+
+.bg-warning {
+  background-color: var(--warning-color-bg);
+}
+
+.bg-danger {
+  background-color: var(--destructive-color-bg);
+}
+
+.bg-info {
+  background-color: var(--info-color-bg);
+}
+
+.border-primary {
+  border-color: var(--info-color-border);
+}
+
+.border-secondary {
+  border-color: var(--success-color-border);
+}
+
+.border-success {
+  border-color: var(--success-color-border);
+}
+
+.border-warning {
+  border-color: var(--warning-color-border);
+}
+
+.border-danger {
+  border-color: var(--destructive-color-border);
+}
+
+.border-info {
+  border-color: var(--info-color-border);
+}
